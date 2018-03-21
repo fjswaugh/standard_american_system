@@ -1,5 +1,15 @@
-Each section or subsection should describe a bid and a set of responses, with important response
-bids getting their own subsection with their own responses.
+Each section should describe a bid and a set of responses, with important response bids getting
+their own subsection with their own responses.
+
+If a subsection describes a bid with lots of continuations, then there should be either:
+    (a) Subsubsections that list the most important continuations (e.g. Stayman continuations)
+    (b) Another section that describes a major continuation bid (e.g. Ogust after Multi-Landy)
+
+(b) is particularly useful if the bid can occur after multiple different paths.
+
+Subsubsections are the lowest level of structure, and so will often contain multiple continuations
+after multiple bids in a certain category.  Subsubsections may be devoted to single bids and
+continuations (in the same way as subsections), but the structure may be somewhat looser. 
 
 Interference should be dealt with as a subsubsection, e.g.
 
