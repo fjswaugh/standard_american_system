@@ -1,0 +1,15 @@
+Each section or subsection should describe a bid and a set of responses, with important response
+bids getting their own subsection with their own responses.
+
+Interference should be dealt with as a subsubsection, e.g.
+
+> Fancy convention (sub)section
+> -----------------------------
+> 
+> THE BID
+>     RESPONSES
+> 
+> *Interference subsubsection*
+> 
+> RESPONSES AFTER INTERFERENCE
+

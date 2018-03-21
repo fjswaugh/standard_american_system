@@ -1,0 +1,63 @@
+\usepackage{parskip}  % Package for paragraph indentation
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor=black
+}
+
+\usepackage{color}
+\usepackage[table, dvipsnames]{xcolor}
+
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+% Change separation between list items
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+% Provides the H option to tables so they don't get repositioned
+\usepackage{float}
+\restylefloat{table}
+
+\usepackage{multirow}
+\definecolor{tablegray}{HTML}{CCCCCC}
+
+\usepackage{pifont}
+\usepackage{fontspec}
+
+% Pick a font with unicode support
+\setmainfont{Liberation Serif}
+%\setmainfont{DroidSans}
+%\setmainfont{Cabin Serif}
+
+\definecolor{clubcolor}{HTML}{078F00}
+\definecolor{diamondcolor}{HTML}{FF4D00}
+\definecolor{heartcolor}{HTML}{FF0000}
+\definecolor{spadecolor}{HTML}{000F82}
+
+% Suits followed by no space
+\newcommand{\bC}{\textcolor{clubcolor}{\Pisymbol{psy}{"A7}}}
+\newcommand{\bD}{\textcolor{diamondcolor}{\Pisymbol{psy}{"A8}}}
+\newcommand{\bH}{\textcolor{heartcolor}{\Pisymbol{psy}{"A9}}}
+\newcommand{\bS}{\textcolor{spadecolor}{\Pisymbol{psy}{"AA}}}
+\newcommand{\bN}{NT}
+\newcommand{\bmaj}{\textcolor{heartcolor}{\Pisymbol{psy}{"A9}}/\textcolor{spadecolor}{\Pisymbol{psy}{"AA}}}
+\newcommand{\bmin}{\textcolor{clubcolor}{\Pisymbol{psy}{"A7}}/\textcolor{diamondcolor}{\Pisymbol{psy}{"A8}}}
+
+% Suits with spaces after them
+\newcommand{\bCs}{\textcolor{clubcolor}{\Pisymbol{psy}{"A7}} }
+\newcommand{\bDs}{\textcolor{diamondcolor}{\Pisymbol{psy}{"A8}} }
+\newcommand{\bHs}{\textcolor{heartcolor}{\Pisymbol{psy}{"A9}} }
+\newcommand{\bSs}{\textcolor{spadecolor}{\Pisymbol{psy}{"AA}} }
+\newcommand{\bNs}{NT }
+\newcommand{\bmajs}{\textcolor{heartcolor}{\Pisymbol{psy}{"A9}}/\textcolor{spadecolor}{\Pisymbol{psy}{"AA}} }
+\newcommand{\bmins}{\textcolor{clubcolor}{\Pisymbol{psy}{"A7}}/\textcolor{diamondcolor}{\Pisymbol{psy}{"A8}} }
+
+\newcommand{\bany}{\bC/\bD/\bH/\bSs}
+\newcommand{\bx}{x}
+\newcommand{\bxx}{xx}
+
+\newcommand{\ta}{\rowcolor{tablegray}}
+\newcommand{\tb}{\rowcolor{white}}
+\newcommand{\te}{\noalign{\vskip-0.1pt}}
