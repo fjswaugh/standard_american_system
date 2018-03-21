@@ -4,6 +4,7 @@
 !.gitignore
 !TODO.txt
 !*.tex
+!tex
 !tex/*.tex
 !ebu_convention_card.odg
 !TODO.txt
